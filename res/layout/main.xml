@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/bg"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/txt_turn" android:textSize="12.0sp" android:typeface="monospace"
+            android:layout_marginTop="4.0dp" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp"/>
+    <com.cs200.checkers.CheckersBoardView
+            android:id="@+id/cb_view"
+            android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.45"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/txt_msg" android:textSize="10.0sp" android:typeface="monospace"
+            android:layout_marginLeft="5.0dp"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/txt_board"
+            android:typeface="monospace"
+            android:textAlignment="center" android:paddingLeft="5dp" android:paddingRight="5dp"
+            android:textSize="8.0sp" android:layout_weight="1"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_move_instructions"
+            android:id="@+id/edit_txt_move" android:layout_gravity="right|center_vertical"
+            android:singleLine="true"
+            android:textSize="10.0sp" android:typeface="monospace"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_txt_make_move"
+            android:id="@+id/btn_make_move" android:onClick="btnClick"/>
+</LinearLayout>

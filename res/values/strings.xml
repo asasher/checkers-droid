@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">checkers</string>
+
+    <string name="title_activity_create_board">Create Board</string>
+    <string name="edit_txt_w_pcs_instructions">Enter Positions for White Pieces (e.g A1,A3 etc...)</string>
+    <string name="edit_txt_b_pcs_instructions">Enter Positions for Black Pieces (e.g B8,B6 etc...)</string>
+    <string name="btn_txt_create_board">Create Board</string>
+    <string name="txt_create_board_instructions">Enter Positions for White and Black Pieces. Leave blank for default.
+    </string>
+
+    <string name="btn_txt_make_move">Make Move</string>
+    <string name="txt_move_instructions">Enter Move (eg. A1-B2 etc...)</string>
+</resources>

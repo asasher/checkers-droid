@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_create_board_instructions"
+            android:id="@+id/txt_create_board_instructions" android:layout_gravity="left|center_vertical" android:layout_weight="0"
+            android:autoText="false" android:layout_marginTop="4.0dp" android:layout_marginLeft="5.0dp"
+            android:layout_marginRight="5.0dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_txt_create_w_pcs" android:layout_gravity="center|top" android:layout_weight="0"
+            android:hint="@string/edit_txt_w_pcs_instructions"/>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:id="@+id/edit_txt_create_b_pcs" android:layout_gravity="center|top" android:layout_weight="0"
+              android:hint="@string/edit_txt_b_pcs_instructions"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/btn_txt_create_board"
+            android:id="@+id/btn_create_board" android:layout_gravity="center|top" android:layout_weight="0"
+            android:onClick="createBoard"/>
+</LinearLayout>
